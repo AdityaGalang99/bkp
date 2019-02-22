@@ -1,3 +1,26 @@
+ -----------------------------SECURITY CODE-----------------------------  
+ 
+ 
+ pass = '0157'
+
+prompt = gg.prompt({'⛔ Masukan Nomor Togelnya'},{[1]=0},{[1]='number'});
+
+function right()
+  gg.alert("🔓Welcome Ikeh Ikeh!!")
+end
+  
+  
+function wrong()
+  gg.alert("🔒Salah Kontol!!")
+  os.exit();
+end
+  
+
+if prompt[1] == pass then
+right()
+else
+wrong()
+end
 gg.toast("🔹X乛Team Loader 🔹")
 gg.alert(os.date("Wellcome\nToday: %d/%m/%Y Time: %H:%M"))
 gg.alert("Script PUBG MOBILE 0.11")
@@ -244,6 +267,7 @@ gg.toast("Finish")
 gg.toast("Finish")
 
 gg.alert("Failed To Login\n Please Check Your Device Firts\nContact admin in http://t.me/Goodoflua")
+gg.alert("Mampus Lo Gua Tipu Ke Donloawd Gak Tuh Video XXX")
 end
 function PPK()
   KNP = gg.choice({
@@ -1038,6 +1062,7 @@ function MF2()
     "🔹Auto Hit Enemy",
     "🔹Anti Shake",
     "🔹Instan GUN",
+    "🔹Kar98 NO Reload",
     "🔹Parasute Speed 1.5",
     "🔹Speed 2.5",
     "🔹Ghost Flash",
@@ -1103,37 +1128,55 @@ function MF2()
       NT()
     end
     if MN6[18] == true then
-     FPH()
+      K98()
     end
     if MN6[19] == true then
-      SPEED25()
+     FPH()
     end
     if MN6[20] == true then
-       GHST()
+      SPEED25()
     end
     if MN6[21] == true then
-      SPEEDNOLAG()
+       GHST()
     end
     if MN6[22] == true then
-      A1()
+      SPEEDNOLAG()
     end
     if MN6[23] == true then
-      A2()
+      A1()
     end
     if MN6[24] == true then
-      A3()
+      A2()
     end
     if MN6[25] == true then
-      NF()
+      A3()
     end
     if MN6[26] == true then
-     RD()
+      NF()
     end
     if MN6[27] == true then
+     RD()
+    end
+    if MN6[28] == true then
       HOME()
     end
   end
   PUBGMH = -1
+end
+function K98()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("128D;-1D;1.7;0.3::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.7", 16, false, 536870912, 0, -1)
+local t = gg.getResults(10)
+gg.editAll("0", 16)
+gg.toast("Processing")
+gg.setRanges(32)
+gg.searchNumber("76000;5D;1.89999997616;0.1::50", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.89999997616", 16, false, 536870912, 0, -1)
+local t = gg.getResults(10)
+gg.editAll("0", 16)
+gg.toast("K98 No Reload")
 end
 function A1()
 gg.clearResults()
